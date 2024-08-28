@@ -79,15 +79,7 @@ export default function Component() {
                 </p>
               </div>
 
-              <div className="flex flex-col items-center gap-3 p-4 rounded-lg bg-[#111827]">
-                <Store className="h-12 w-12 text-[#ff4655]" />
-                <h3 className="text-lg font-bold text-white">View Store</h3>
-                <p className="text-muted-foreground text-center">
-                  The pattern you&apos;ve been waiting for for days has arrived at
-                  your store, but you don&apos;t have your computer with you? Don&apos;t
-                  worry, find out immediately with VALLAYF.
-                </p>
-              </div>
+              
               <div className="flex flex-col items-center gap-3 p-4 rounded-lg bg-[#111827]">
                 <History className="h-12 w-12 text-[#ff4655]" />
                 <h3 className="text-lg font-bold text-white">
@@ -110,10 +102,9 @@ export default function Component() {
                 Say hello to VALLAYF&apos;s interface!
               </p>
             </div>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 mt-8 items-center justify-center w-full">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 mt-8 items-center justify-center w-full">
               <ImageDisplay src="/Shot.png" alt="VALORANT Screenshot 1" />
               <ImageDisplay src="/Shot1.png" alt="VALORANT Screenshot 2" />
-              <ImageDisplay src="/Shot2.png" alt="VALORANT Screenshot 3" />
             </div>
           </div>
         </section>
